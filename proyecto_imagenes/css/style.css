@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+}
+
+
+
+.container {
+    width: 800px;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.container1 {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(0, 204, 255);
+    display: flex;
+    justify-content: space-around;
+    
+   
+    
+}
+
+.container2 {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(255, 0, 60);
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+
+.container img{
+    margin: 10px;
+    
+}
+.container1 img{
+    margin: 10px;
+}
+.container2 img{
+    margin: 10px;
+}
