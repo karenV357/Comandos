@@ -1,0 +1,142 @@
+<!DOCTYPE html> <!--Nos indica que usamos html5-->
+<html lang="en"> <!--indica el idioma en que está mi pagina web-->
+
+<head>
+    <meta charset="UTF-8"><!--caracteres, permite colocar acentoss, tildes, etc.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--escalas-->
+    <title>INTRO a html</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>encabezado 1</h1>
+    <h2>encabezado 2</h2>
+    <h3>encabezado 3</h3>
+    <h4 class="rojo subrayado">encabezado 4</h4>
+    <h5>encabezado 5</h5>
+    <h6>encabezado 6</h6>
+
+    <p id="parrafo">este es el primer parrafo de mi pagina web</p>
+    <p>Parrafo con etiqueta <strong>Strong</strong></p>
+    <strong>strong fuera de parrafo</strong>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum provident doloremque, fugiat animi tempore
+        temporibus sint
+        tempora vitae possimus, aliquid iure repellendus illo nobis ea excepturi praesentium error, eveniet tenetur!
+    </p>
+
+    <!-- anchor, ancla hipervinculo enlace-->
+    <a href="http://google.com" target="_blank">Este es un hipervinculo</a>
+
+    <!--listas-->
+    <h2>lista desordenada</h2>
+    <!--unordered list-->
+    <ul>
+        <li>Gatos</li>
+        <li>Perros</li>
+        <li>Pajaros</li>
+        <li>Tlacuache</li>
+        <li>Venado</li>
+    </ul>
+    <h2>listas ordenadas</h2>
+    <!--listas ordenadas-->
+    <ol>
+        <li>Entar a la seion de zoom</li>
+        <li>Poner mucha atencion en claes</li>
+        <!-- <li>hare todas las actividaes</li> --> <!--ctrl + }-->
+    </ol>
+    <h2>Tabla</h2>
+    <table>
+        <thead> <!--cabeza de la tabla-->
+            <tr> <!-- table row fila-->
+                <!-- titulo de mi tabla-->
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>
+
+            </tr>
+        </thead>
+        <tbody> <!--cuerpo de mi tabla-->
+            <tr> <!--table row-->
+                <td>columna 1.1</td> <!--table data-->
+                <td>columna 1.2</td>
+                <td>columna 1.3</td>
+            </tr>
+            <tr>
+                <td>columna 2.3</td>
+                <td>columna 231</td>
+                <td>columna 2.3</td>
+            </tr>
+        </tbody>
+    </table>
+    <img src="img/gatito.png" alt="gatito">
+
+    <form action="#" method="post">
+        <DIV>
+            <label>Llena estos campos</label>
+            <input type="text" name="input_text">
+            <input type="number" name="input_numeral">
+            <input type="password" name="contraseña">
+            <input type="date" name="fecha">
+            <input type="email" name="correo">
+        </DIV>
+        <div>
+            <label for="casado">Casado</label>
+            <input type="radio" id="casado_id" value="casado" name="estado_civil"><br>
+            <label for="soltero">Soltero</label>
+            <input type="radio" id="soltero_id" value="soltero" name="estado_civil">
+        </div>
+        <DIV>
+            <input type="checkbox" name="mayor_edad" id="mayor">
+            <label for="mayor">¿es mayor de edad?</label>
+
+        </DIV>
+        <div>
+            <select name="lenguaje">
+                <option value="py">Python</option>
+                <option value="j">Java</option>
+                <option value="c">C#</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="comentario" id="comen" cols="100" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Guardar input" id="">
+        </div>
+    </form>
+    <div class="container">
+        <p>elemento padre</p>
+        <div>
+            <p>elemento hijo</p>
+            <div>
+                <p>
+                    elemento nieto
+                </p>
+            </div>
+        </div>
+    </div>
+    <h3 id="color"> prueba de color</h3>
+
+    <div class="tamano">div de prueba</div>
+
+    <p class="texto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae hic alias voluptatibus neque
+        inventore enim at officiis
+        placeat deserunt voluptas, aperiam quam temporibus rerum consectetur nesciunt voluptatum quaerat laborum? Ad!
+    </p>
+    <div class="fondo"></div>
+    <div id="modelo_caja">modelo de caja</div>
+    <h3>Titulo de prueba 1</h3>
+    <h3>Titulo de prueba 2</h3>
+    <h3>Titulo de prueba 3</h3>
+
+    <a href="#">enlace 1</a>
+    <a href="#">enlace 1</a>
+    <a href="#">enlace 1</a>
+    <div id="div1" class="inline-block"></div>
+    <div id="div2" class="inline-block"></div>
+    <div id="div3" class="inline-block"></div>
+</body>
+
+</html>
